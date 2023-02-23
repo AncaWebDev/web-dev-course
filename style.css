@@ -1,0 +1,51 @@
+body{
+	margin: 0px;
+}
+
+#header-content{
+	background-image: url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2662&q=80);
+	background-size: cover;
+	height: 500px;
+	color: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#section-1{
+	background-color: #B5D5C5;
+	padding: 20px;
+	min-height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#section-2{
+	height: 400px;
+	padding: 50px;
+}
+
+.my-card{
+	background-color: #ECA869;
+	width: 300px;
+	border: 5px solid black;
+	padding: 25px;
+	margin: 20px;
+	text-align: center;
+}
+
+.card:hover{
+	animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+ul{
+	display:flex;
+}
+
+li{
+	margin: 20px 10px
+}
